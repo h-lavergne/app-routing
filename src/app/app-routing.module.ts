@@ -6,6 +6,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProductsComponent } from './products/products/products.component';
+import { ArticlesComponent } from './articles/articles/articles.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'terms', component: TermsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'products', component: ProductsComponent},
-  { path: '**', component: PageNotFoundComponent }
+  { path: 'articles', component: ArticlesComponent},
+  //{ path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

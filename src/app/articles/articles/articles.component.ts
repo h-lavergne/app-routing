@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ArticlesComponent implements OnInit {
 
   article = {
-    id: 100,
+    id: 50,
     title: 'How to make router & navigation in Angular 8',
     author: 'Didin J.',
     description: 'A complete tutorial about creating router and navigation in the Angular 8 Web Application'
